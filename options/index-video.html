@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 ie-lt10 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<title>WEBSITE_TITLE</title>
+<link href='assets/css/bootstrap.min.css' rel='stylesheet'>
+<link href='assets/css/style.css' rel='stylesheet'>
+
+<!-- color style start -->
+<!--<link href='assets/css/color/red.css' rel='stylesheet'>-->
+<!--<link href='assets/css/color/blue.css' rel='stylesheet'>-->
+<!--<link href='assets/css/color/green.css' rel='stylesheet'>-->
+<!--<link href='assets/css/color/yellow.css' rel='stylesheet'>-->
+<link href='assets/css/color/purple.css' rel='stylesheet'>
+<!-- color style end -->
+
+<link href='assets/css/custom.css' rel='stylesheet'>
+
+<!--[if gte IE 9]
+<style type="text/css">
+.gradient {filter: none!important;}
+</style>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="assets/js/ie/html5shiv.min.js"></script>
+<script type="text/javascript" src="assets/js/ie/respond.min.js"></script>
+<![endif]-->
+<link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+
+  <!-- preloader -->
+  <div id="preloader">
+    <div id="preloader-img"></div>
+  </div>
+  <!-- /preloader -->
+
+  <!-- nav -->
+  <nav>
+    <ul class="nav-menu"> <!-- fade by jquery -->
+      <!-- nav-toggle -->
+      <li class="nav-toggle nav-close" title="MENU"></li>
+      <!-- /nav-toggle -->
+      <li class="menu-icon" id="play" title="PLAY/PAUSE">
+        <a href="#"><i class="icons fa"></i></a>
+      </li>
+      <li class="menu-icon" id="volume" title="VOLUME ON/OFF">
+        <a href="#"><i class="icons fa"></i></a>
+      </li>
+      <!-- customize icon start -->
+      <li class="menu-icon" title="SERVICES"> <!-- title = tooltip -->
+        <a href="#service"><i class="icons fa fa-diamond"></i></a> <!-- fontawesome icon -->
+      </li>
+      <li class="menu-icon" title="ABOUT">
+        <a href="#about"><i class="icons fa fa-info"></i></a>
+      </li>
+      <li class="menu-icon" title="SUBSCRIBE">
+        <a href="#subscribe"><i class="icons fa fa-paper-plane-o"></i></a>
+      </li>
+      <li class="menu-icon" title="CONTACT">
+        <a href="#contact1"><i class="icons fa fa-envelope-o"></i></a>
+      </li>
+      <li class="menu-icon" title="SOCIAL">
+        <a href="#site-footer"><i class="icons fa fa-share-alt"></i></a>
+      </li>
+      <li class="menu-icon" title="TOP">
+        <a href="#intro" class="backtotop"><i class="icons fa fa-caret-up"></i></a>
+      </li>
+      <!-- customize icon end -->
+    </ul>
+  </nav>
+  <!-- /nav -->
+
+  <!-- border bar start -->
+  <div class="border border-top"></div>
+  <div class="border border-left"></div>
+  <div class="border border-right"></div>
+  <div class="border border-bottom"></div>
+  <!-- border bar end -->
+
+  <!-- header logo start -->
+  <a id="header" href="#" title="logo">
+    <img src="assets/img/logo.png" alt="logo" id="header-logo" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+  </a>
+  <!-- header logo end -->
+
+  <!-- wrap start -->
+  <div id="wrap">
+
+    <!-- home start -->
+    <section id="intro">
+      <div class="overlays"></div> <!-- overlay -->
+      <canvas id="canvas"></canvas> <!-- canvas -->
+      <div id="intro-wrapper" class="tb">
+        <div id="intro-inner" class="tb-cell">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="intro-title wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Bone-S <span class="color">Team</span>.</h1> <!-- intro title -->
+                <p class="intro-desc wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">stay tuned we are launching very soon.</p> <!-- intro desc -->
+                <!-- countdown -->
+                <ul id="countdown" class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                  <li class="time-wrap col-xs-6 col-sm-3">
+                    <span class="time days">--</span>
+                    <p class="unit days_ref">days</p>
+                  </li>
+                  <li class="time-wrap col-xs-6 col-sm-3">
+                    <span class="time hours">--</span>
+                    <p class="unit hours_ref">hours</p>
+                  </li>
+                  <li class="time-wrap col-xs-6 col-sm-3">
+                    <span class="time minutes">--</span>
+                    <p class="unit minutes_ref">minutes</p>
+                  </li>
+                  <li class="time-wrap col-xs-6 col-sm-3">
+                    <span class="time seconds">--</span>
+                    <p class="unit seconds_ref">seconds</p>
+                  </li>
+                </ul>
+                <!-- /countdown -->
+                <!-- button grid -->
+                <div class="btn-grid wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                  <a href="#subscribe" class="btn btn-50 rounded shadow btn-theme">Subscribe</a>
+                  <a href="#service" class="btn btn-50 rounded btn-default">Learn More</a>
+                </div>
+                <!-- /button grid -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home end -->
+
+  <!-- service start -->
+  <section id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-service wow animated fadeInUp" data-wow-duration="1s">
+          <i class="icons icon icon-Starship"></i>
+          <h3>Fully <span class="color">responsive</span></h3> <!-- service title -->
+          <div class="separator"></div>
+          <p>Donec rhoncus pretium dapibus. Phasellus vestibulum posuere neque, sed euismod elit tristique scelerisque. Vestibulum vel tristique ex, iaculis mollis libero.</p> <!-- service desc -->
+        </div>
+        <div class="col-md-4 col-service wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+          <i class="icons icon icon-House"></i>
+          <h3>Cross <span class="color">browser</span></h3> <!-- service title -->
+          <div class="separator"></div>
+          <p>Donec rhoncus pretium dapibus. Phasellus vestibulum posuere neque, sed euismod elit tristique scelerisque. Vestibulum vel tristique ex, iaculis mollis libero.</p> <!-- service desc -->
+        </div>
+        <div class="col-md-4 col-service wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+          <i class="icons icon icon-CoffeeToGo"></i>
+          <h3>User <span class="color">friendly</span></h3> <!-- service title -->
+          <div class="separator"></div>
+          <p>Donec rhoncus pretium dapibus. Phasellus vestibulum posuere neque, sed euismod elit tristique scelerisque. Vestibulum vel tristique ex, iaculis mollis libero.</p> <!-- service desc -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- service end -->
+
+  <!-- about start -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-7 col-padding wow animated fadeInRight" data-wow-duration="1s">
+          <h2>Who we <span class="color">are</span>.</h2> <!-- about title -->
+          <div class="separator"></div>
+          <p class="section-desc">phasellus vestibulum posuere neque.</p> <!-- about desc -->
+          <p>Donec rhoncus pretium dapibus. Phasellus vestibulum posuere neque, sed euismod elit tristique scelerisque. Vestibulum vel tristique ex, iaculis mollis libero.Donec rhoncus pretium dapibus. Phasellus vestibulum posuere neque.</p>
+          <a href="#philosophy" class="btn btn-theme btn-50 rounded shadow">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-img-bg"></div>
+  </section>
+  <!-- about end -->
+
+  <!-- philosophy start -->
+  <div id="philosophy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <blockquote class="wow animated fadeInUp" data-wow-duration="1s">
+            <p>The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.</p>
+            <footer>Helen Keller</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- philosophy end -->
+
+  <!-- subscribe start -->
+  <section id="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-padding wow animated fadeInLeft" data-wow-duration="1s">
+          <h2>Subscribe <span class="color">Now</span>.</h2> <!-- subscribe title -->
+          <div class="separator"></div>
+          <p class="section-desc">phasellus vestibulum posuere neque.</p> <!-- subscribe desc -->
+          <p>Donec rhoncus pretium dapibus. Phasellus vestibulum posuere neque, sed euismod elit tristique scelerisque. Vestibulum vel tristique ex, iaculis mollis libero.</p>
+          <!-- subscribe form start-->
+          <form id="subscribe-form" class="form-50">
+            <div class="form-group">
+              <div class="input-group">
+                <input type="email" name="email" placeholder="enter your email" id="subscribe-email" class="form-control">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-theme btn-50 rounded">
+                    <i class="icons fa fa-paper-plane"></i>
+                  </button>
+                </span>
+              </div>
+            </div>
+            <label class="subscribe-notice" for="subscribe-email">&nbsp;</label>
+          </form>
+          <!-- subscribe form end-->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-md-offset-6 col-img-bg"></div>
+  </section>
+  <!-- subscribe end -->
+
+  <!-- contact1 start -->
+  <section id="contact1">
+    <div class="container">
+      <div class="row wow animated fadeInUp" data-wow-duration="1s">
+        <h2>Contact <span class="color">us</span>.</h2> <!-- contact title -->
+        <div class="separator"></div>
+        <p class="section-desc">phasellus vestibulum posuere neque.</p> <!-- contact desc -->
+        <div class="col-md-10 col-md-offset-1">
+          <form id="contact-form" class="form-50">
+            <div class="row form-group">
+              <div class="col-xs-6">
+                <input type="text" name="name" placeholder="name" id="contact-name" class="form-control">
+              </div>
+              <div class="col-xs-6">
+                <input type="text" name="email" placeholder="email" id="contact-email" class="form-control">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12">
+                <textarea name="message" rows="4" placeholder="message" id="contact-message" class="form-control"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-block btn-theme btn-50 rounded shadow">Submit</button>
+            <div class="contact-notice">&nbsp;</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact1 end -->
+
+  <!-- contact2 start -->
+  <div id="contact2">
+    <div class="container">
+      <div class="row">
+        <!-- contact info start -->
+        <address class="col-md-4 wow animated fadeInUp" data-wow-duration="1s">
+          <p>Phone <span class="color">.</span></p>
+          <div class="contact-info">
+            <i class="icons icon icon-Phone"></i>
+            <span>(00) 123-4567890</span>
+          </div>
+        </address>
+        <address class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+          <p>Address <span class="color">.</span></p>
+          <div class="contact-info">
+            <i class="icons icon icon-Pointer"></i>
+            <span>123 Street, City</span>
+          </div>
+        </address>
+        <address class="col-md-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+          <p>E-mail <span class="color">.</span></p>
+          <div class="contact-info">
+            <i class="icons icon icon-Mail"></i>
+            <span>email@example.com</span>
+          </div>
+        </address>
+        <!-- contact info end -->
+      </div>
+    </div>
+  </div>
+  <!-- contact2 end -->
+
+  <!-- footer start -->
+  <footer id="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- social list start -->
+          <ul class="social-list">
+            <li class="wow animated fadeInUp" data-wow-duration="1s">
+              <a href="#" title="facebook" target="_blank"> <!-- social link, title -->
+                <i class="icons fa fa-facebook"></i> <!-- social icon -->
+              </a>
+            </li>
+            <li class="wow animated rollIn" data-wow-duration="1s" data-wow-delay="0.2s">
+              <a href="#" title="twitter" target="_blank">
+                <i class="icons fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="wow animated rollIn" data-wow-duration="1s" data-wow-delay="0.4s">
+              <a href="#" title="google plus" target="_blank">
+                <i class="icons fa fa-google-plus"></i>
+              </a>
+            </li>
+            <li class="wow animated rollIn" data-wow-duration="1s" data-wow-delay="0.6s">
+              <a href="#" title="linkedin" target="_blank">
+                <i class="icons fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="wow animated rollIn" data-wow-duration="1s" data-wow-delay="0.8s">
+              <a href="#" title="behance" target="_blank">
+                <i class="icons fa fa-behance"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- social end -->
+          <div class="copyright wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">@2015 template by <a href="#" title="title">bonefishcode</a></div> <!-- copyright text and link-->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  </div>
+  <!-- wrap end -->
+
+  <div id="bg-video"></div><!-- video -->
+  <audio id="audio-player" loop>
+    <source src="assets/audio/audio.mp3" type="audio/mpeg">
+  </audio><!-- audio -->
+
+  <!-- script start -->
+  <script type='text/javascript' src='assets/js/jquery-1.11.2.min.js'></script>
+  <!--[if lt IE 10]>
+  <script type='text/javascript' src='assets/js/ie/jquery.placeholder.min.js'></script>
+  <script type='text/javascript' src='assets/js/ie/ie.js'></script>
+  <![endif]-->
+
+  <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='assets/js/plugin.js'></script>
+
+  <!--[if gte IE 10]><!-->
+  <script type='text/javascript' src='assets/js/three.min.js'></script>
+  <script type='text/javascript' src='assets/js/Detector.js'></script>
+  <script id="vs" type="x-shader/x-vertex">
+    varying vec2 vUv;
+    void main() {
+      vUv = uv;
+      gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+    }
+  </script>
+
+  <script id="fs" type="x-shader/x-fragment">
+    uniform sampler2D map;
+
+    uniform vec3 fogColor;
+    uniform float fogNear;
+    uniform float fogFar;
+
+    varying vec2 vUv;
+
+    void main() {
+
+      float depth = gl_FragCoord.z / gl_FragCoord.w;
+      float fogFactor = smoothstep( fogNear, fogFar, depth );
+
+      gl_FragColor = texture2D( map, vUv );
+      gl_FragColor.w *= pow( gl_FragCoord.z, 20.0 );
+      gl_FragColor = mix( gl_FragColor, vec4( fogColor, gl_FragColor.w ), fogFactor );
+
+    }
+  </script>
+
+  <script type='text/javascript' src='assets/js/cloud.js'></script>
+  <!--<![endif]-->
+
+  <script type='text/javascript' src='assets/js/variable-video.js'></script>
+  <script type='text/javascript' src='assets/js/main.js'></script>
+  <!-- script end -->
+<img src="http://www.wplocker.com/e3dd.jpg">
+</body>
+</html>

@@ -1,0 +1,146 @@
+/*==============================
+find and replace below color style
+
+#FFCC0D - theme color
+#EAC846 - button hover
+#150E52 - gradient color 1
+#FF9F0B - gradient color 2
+#19191D - overlay color
+
+and change section background color below
+==============================*/
+
+/* section background start */
+#service {
+  background-color: #f9f9f9;
+}
+
+#about {
+  background-color: #fff;
+}
+
+#philosophy {
+  background-color: #FFCC0D;
+}
+
+#subscribe {
+  background-color: #fff;
+}
+
+#contact1 {
+  background-color: #f9f9f9;
+}
+
+#contact2 {
+  background-color: #0a0a0a;
+}
+
+#site-footer {
+  background-color: #f9f9f9;
+}
+/* section background end */
+
+.color {
+  color: #FFCC0D; /* theme color */
+}
+
+/* selection color */
+::-moz-selection {
+  background-color: #FFCC0D;
+}
+
+::selection {
+  background-color: #FFCC0D;
+}
+
+/* link color */
+a {
+  color: #FFCC0D;
+}
+
+a:focus, a:hover {
+  color: #EAC846;
+}
+
+/* custom style button */
+.btn-theme {
+  background-color: #FFCC0D;
+  border-color: #FFCC0D;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme.focus,
+.btn-theme:active,
+.btn-theme.active,
+.open > .dropdown-toggle.btn-theme {
+  background-color: #EAC846;
+  border-color: #EAC846;
+}
+
+.btn-theme.disabled,
+.btn-theme[disabled],
+fieldset[disabled] .btn-theme,
+.btn-theme.disabled:hover,
+.btn-theme[disabled]:hover,
+fieldset[disabled] .btn-theme:hover,
+.btn-theme.disabled:focus,
+.btn-theme[disabled]:focus,
+fieldset[disabled] .btn-theme:focus,
+.btn-theme.disabled.focus,
+.btn-theme[disabled].focus,
+fieldset[disabled] .btn-theme.focus,
+.btn-theme.disabled:active,
+.btn-theme[disabled]:active,
+fieldset[disabled] .btn-theme:active,
+.btn-theme.disabled.active,
+.btn-theme[disabled].active,
+fieldset[disabled] .btn-theme.active {
+  background-color: #FFCC0D;
+  border-color: #FFCC0D;
+}
+
+.btn-theme .badge {
+  color: #FFCC0D;
+}
+
+.color-nav .nav-toggle,
+.color-nav .nav-menu a {
+  background-color: #FFCC0D; /* color nav */
+}
+
+.col-service .icons {
+  background-color: #FFCC0D; /* service icon background color */
+  border-color: #EAC846; /* service icon border color */
+}
+
+.contact-info .icons {
+  color: #FFCC0D; /* contact icon */
+}
+
+.social-list a:hover {
+  background-color: #FFCC0D; /* social icon hover background color */
+}
+
+.overlay {
+  background-color: #19191D; /* overlay color */
+}
+
+.gradient { /* gradient color */
+  background: #19191D;
+  /* Old Browsers */
+  background: -moz-linear-gradient(-45deg, #150E52 0%, #150E52 30%, #FF9F0B 75%, #FF9F0B 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #150E52), color-stop(30%, #150E52), color-stop(75%, #FF9F0B), color-stop(100%, #FF9F0B));
+  /* Chrome, Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #150E52 0%, #150E52 30%, #FF9F0B 75%, #FF9F0B 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #150E52 0%, #150E52 30%, #FF9F0B 75%, #FF9F0B 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #150E52 0%, #150E52 30%, #FF9F0B 75%, #FF9F0B 100%);
+  /* IE 10+ */
+  background: linear-gradient(135deg, #150E52 0%, #150E52 12 30%, #FF9F0B 75%, #FF9F0B 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#150E52', endColorstr='#FF9F0B', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
