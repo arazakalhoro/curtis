@@ -91,13 +91,13 @@ var __mailChimp = true; // true = mailchimp form, false = php subscribe form
 var __mailChimpUrl = 'http://curtis-simmons.us3.list-manage.com/subscribe/post-json?u=e5b29ac4ceb12e705541380e8&amp;id=acc597fb89'; // mailchimp post url
 
 $.ajaxChimp.translations.eng = { // custom mailchimp message
-  'submit': 'please wait',
-  0: '<i class="icon fa fa-check"></i> we have sent you a confirmation email',
-  1: '<i class="icon fa fa-close"></i> enter a valid e-mail address',
-  2: '<i class="icon fa fa-close"></i> e-mail address is not valid',
-  3: '<i class="icon fa fa-close"></i> e-mail address is not valid',
-  4: '<i class="icon fa fa-close"></i> e-mail address is not valid',
-  5: '<i class="icon fa fa-close"></i> e-mail address is not valid'
+  'submit': 'Hold On!  We are processing your subscription.',
+  0: '<i class="icon fa fa-check"></i> Check your email for the confirmation!',
+  1: '<i class="icon fa fa-close"></i> enter a valid e-mail addres',
+  2: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.',
+  3: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.',
+  4: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.',
+  5: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.'
 }
 
 // dedault message for reference
