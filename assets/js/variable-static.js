@@ -31,7 +31,7 @@ var __border = true; // show border
 overlay
 =================================================*/
 var __overlayStyle = 2; // 1 = normal, 2 = gradient
-var __overlayOpacity = 0.75; // overlay opacity, 0 to 1, 0 = disable overlay
+var __overlayOpacity = 0.10; // overlay opacity, 0 to 1, 0 = disable overlay
 
 /*=================================================
 header style
