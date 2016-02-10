@@ -74,7 +74,7 @@ var __countdownTimezone = "-8"; // timezone
 /*=================================================
 contact
 =================================================*/
-var __contactEmail = 'nwoartgallery@gmail.com'; // contact email address
+var __contactEmail = 'bethespectrum@gmail.com'; // contact email address
 var __contactSuccess = '<i class="icons fa fa-check valid"></i> message has been sent'; // success submit message
 var __contactInputError = '<i class="icons fa fa-close error"></i> all fields are required'; // input error message
 var __contactEmailError = '<i class="icons fa fa-close error"></i> email address is invalid'; // email error message
