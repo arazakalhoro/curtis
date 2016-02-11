@@ -91,13 +91,13 @@ var __mailChimp = true; // true = mailchimp form, false = php subscribe form
 var __mailChimpUrl = 'http://curtis-simmons.us3.list-manage.com/subscribe/post-json?u=e5b29ac4ceb12e705541380e8&amp;id=acc597fb89'; // mailchimp post url
 
 $.ajaxChimp.translations.eng = { // custom mailchimp message
-  'submit': 'Hold On!  We are processing your subscription.',
-  0: '<i class="icon fa fa-check"></i> Check your email for the confirmation!',
-  1: '<i class="icon fa fa-close"></i> enter a valid e-mail addres',
-  2: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.',
-  3: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.',
-  4: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.',
-  5: '<i class="icon fa fa-close"></i> Uh-oh! Looks like that is not a valid email!  Try again.'
+  'submit': 'Submitting...',
+  0: '<i class="icon fa fa-check"></i> We have sent you a confirmation email',
+  1: '<i class="icon fa fa-close"></i> Please enter a value',
+  2: '<i class="icon fa fa-close"></i> An email address must contain a single @',
+  3: '<i class="icon fa fa-close"></i> The domain portion of the email address is invalid (the portion after the @: )',
+  4: '<i class="icon fa fa-close"></i> The username portion of the email address is invalid (the portion before the @: )',
+  5: '<i class="icon fa fa-close"></i> This email address looks fake or invalid.  Please enter a real email address'
 }
 
 // dedault message for reference
