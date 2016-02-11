@@ -1,20 +1,3 @@
 /*========================================
 place custom style at this css file
 ========================================*/
-.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #fc5151;
-}
-.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #fc5151;
-   opacity:  1;
-}
-.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #fc5151;
-   opacity:  1;
-}
-.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #fc5151;
-}
-.form-control:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-  color:    #fc5151;
-}

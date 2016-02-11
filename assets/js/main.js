@@ -166,9 +166,9 @@ static image header
 =================================================*/
   function _header() {
     if (!isMobile) {
-      $.backstretch('assets/img/bg/logo.jpg');
+      $.backstretch('assets/img/bg/logo.png');
     } else {
-      $('#intro').backstretch('assets/img/bg/logo.jpg');
+      $('#intro').backstretch('assets/img/bg/logo.png');
     }
   }
 
